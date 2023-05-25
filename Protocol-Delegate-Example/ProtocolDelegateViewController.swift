@@ -59,16 +59,17 @@ class ProtocolDelegateViewController: UIViewController {
         return imageView
     }()
 
-    let cityLabel: UILabel = {
-        let label = UILabel()
-        label.text = ""
-        label.textAlignment = .center
-        return label
-    }()
 
     let temperatureLabel: UILabel = {
         let label = UILabel()
         label.text = ""
+        return label
+    }()
+    
+    let cityLabel: UILabel = {
+        let label = UILabel()
+        label.text = ""
+        label.textAlignment = .center
         return label
     }()
 
